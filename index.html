@@ -515,9 +515,9 @@
 
     <script>
         // Configuration
-        const SUPABASE_URL = '${{secrets.API_URL}}';
-        const SUPABASE_ANON_KEY = '${{secrets.API_KEY}}';
-        const ADMIN_PASSWORD = '${{secrets.GOODJOB}}'; // Change this!
+        const SUPABASE_URL = '${{ secrets.API_URL }}';
+        const SUPABASE_ANON_KEY = '${{ secrets.API_KEY }}';
+        const ADMIN_PASSWORD = '${{ secrets.GOODJOB }}'; 
 
         let isAdminLoggedIn = false;
 
@@ -707,6 +707,7 @@
     </script>
 </body>
 </html>
+
 
 
 
