@@ -515,9 +515,9 @@
 
     <script>
         // Configuration
-        const SUPABASE_URL = 'https://azcsgoymarfeznhdfvod.supabase.co';
+        const SUPABASE_URL = '${{secrets.API_URL}}';
         const SUPABASE_ANON_KEY = '${{secrets.API_KEY}}';
-        const ADMIN_PASSWORD = '${{secrets.hii}}'; // Change this!
+        const ADMIN_PASSWORD = '${{secrets.GOODJOB}}'; // Change this!
 
         let isAdminLoggedIn = false;
 
@@ -707,5 +707,6 @@
     </script>
 </body>
 </html>
+
 
 
